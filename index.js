@@ -27,6 +27,6 @@ function removeLastKitten(){
 }
 
 function prependKitten(name){
-  const newK = kittens.concat[name, ...kittens]
+  const newK = kittens.concat(name, ...kittens)
   return newK
 }
