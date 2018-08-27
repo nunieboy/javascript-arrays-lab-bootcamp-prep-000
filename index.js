@@ -30,3 +30,7 @@ function prependKitten(name){
   const newK = [name, ...kittens];
   return newK
 }
+
+function removeFirstKitten(){
+  return kittens.slice();
+}
